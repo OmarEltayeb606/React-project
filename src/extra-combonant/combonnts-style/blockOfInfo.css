@@ -1,0 +1,65 @@
+/* ---------------------------------------------------------------------the main continer */
+.box-info{
+    border-radius: 30px;
+    background-color:rgb(91 86 86);
+    box-shadow: 2px 2px rgba(22, 20, 20, 0.167);
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    }
+/* -----------------------------------------------------------------------date */
+.date{
+    display: flex;
+    font-size: 30px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 10px;
+    background-color: #2a2727;
+}
+
+.month{
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.year {
+    font-size:x-large;
+}
+
+.day{
+    font-weight: bold;
+    font-size:40px;
+    margin-bottom: 10px;
+}
+
+/* -----------------------------------------------------------------------car */
+.car-kind{
+    color: white;
+    margin: 20px;
+    justify-self:flex-start ;
+    }
+/* -------------------------------------------------------------------car-kind+date*/
+.kind-date{
+    display: flex;
+    align-items: center;
+}
+/* -------------------------------------------------------------------------amount */
+.amount{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    background-color: rgb(42, 13, 100);
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    align-self: flex-end;
+    }
+/* ------------------------------------------------------------------------- */
